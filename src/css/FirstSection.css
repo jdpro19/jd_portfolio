@@ -1,0 +1,8 @@
+.pic{
+    width:500px;
+    border: 1px solid blue;
+}
+.pic img{
+    border: 2px solid black;    
+    border-radius: 50%;    
+}
