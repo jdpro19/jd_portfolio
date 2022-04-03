@@ -1,5 +1,6 @@
 .main{    
-    background:linear-gradient(to right, #a73ba8, #00d9f8);        
+    background:linear-gradient(to right, #a73ba8, #00d9f8);  
+    width:100%;      
     display: flex;    
 }
 .pic{

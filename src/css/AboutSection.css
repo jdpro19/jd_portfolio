@@ -1,0 +1,49 @@
+.abt-container{
+    width:100%;
+    margin:20px;
+    display: flex;
+}
+.abt-content{
+    border:3px solid red;
+    width:35%;
+    padding:50px;
+    
+}
+.abt-skills{
+    border:2px solid navy;
+    width:50%;   
+    padding:5px;
+}
+
+.skills-block-js, .skills-block-python, .skills-block-php, .skills-block-misc, .skills-block-git {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-block-js img {
+    width:90px;
+    height:90px; 
+    
+}
+
+.skills-block-git img {
+    width:90px;
+    height:90px; 
+    
+}
+
+.skills-block-python img {
+    width:90px;
+    height:90px;         
+}
+
+.skills-block-php img {
+    width:90px;
+    height:90px;         
+}
+
+.skills-block-misc img {
+    width:90px;
+    height:90px;         
+}
