@@ -1,49 +1,36 @@
 .abt-container{
     width:100%;
-    margin:20px;
+    margin:0px;
     display: flex;
+    background-color:snow;
 }
-.abt-content{
-    border:3px solid red;
-    width:35%;
-    padding:50px;
+
+.abt-content {
+    width:40%; 
+    /* width: 300px; */
+    height:auto;        
+}
+
+.abt-content p{
+    position: relative;
+    top: 40%;
+    font-family: monospace;
+    font-size:18pt;
     
 }
-.abt-skills{
-    border:2px solid navy;
-    width:50%;   
+
+.abt-skills{    
+    width:55%;   
     padding:5px;
 }
 
-.skills-block-js, .skills-block-python, .skills-block-php, .skills-block-misc, .skills-block-git {
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
+.skills-block-techstack h2 {
+    padding: 20px;
+    font-weight: lighter;
+    font-size: x-large;
 }
 
-.skills-block-js img {
+.skills-block-techstack img {
     width:90px;
-    height:90px; 
-    
-}
-
-.skills-block-git img {
-    width:90px;
-    height:90px; 
-    
-}
-
-.skills-block-python img {
-    width:90px;
-    height:90px;         
-}
-
-.skills-block-php img {
-    width:90px;
-    height:90px;         
-}
-
-.skills-block-misc img {
-    width:90px;
-    height:90px;         
+    height:90px;
 }
