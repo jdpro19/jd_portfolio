@@ -22,6 +22,14 @@ const ProjectSection = () => {
                         <h3>This is a Project</h3>
                     </div>
                 </div>
+                <div className="card">
+                    <div className="card-img">
+                        <img src={jd_pic}/>
+                    </div>
+                    <div className="card-title">
+                        <h3>This is a Project</h3>
+                    </div>
+                </div>
             </div>
         </div>
     );

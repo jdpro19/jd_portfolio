@@ -15,7 +15,8 @@
     top: 30%;
     font-family: monospace;
     font-style: italic;
-    font-size:18pt;    
+    font-size:18pt;  
+    padding: 5px;  
 }
 
 .abt-skills{    
