@@ -1,6 +1,8 @@
 .main{    
     background:linear-gradient(to right, #a73ba8, #00d9f8);  
-    width:100%;      
+    width:100%; 
+    height:450px;
+    border-end-end-radius: 30%;     
     display: flex;    
 }
 .pic{
