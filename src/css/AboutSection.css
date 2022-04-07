@@ -6,14 +6,13 @@
 }
 
 .abt-content {
-    width:40%; 
-    /* width: 300px; */
+    width:40%;     
     height:auto;        
 }
 
-.abt-content p{
+.abt-content h2, p{
     position: relative;
-    top: 40%;
+    top: 30%;
     font-family: monospace;
     font-style: italic;
     font-size:18pt;    
