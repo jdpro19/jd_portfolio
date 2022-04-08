@@ -11,25 +11,22 @@
 .card{
     width:250px;
     border-radius:1px solid yellow;
+    background-color: #00d9f8;
     display: inline-block;
     padding: 30px;
     margin:20px;
 }
 
 .card-img img{
-    width: 200px;
-    border-end-end-radius:20%;
-    border-start-start-radius: 20%;
-}
-
-.card-img img:hover {
-    width: 202px;
-    box-shadow: 2px 2px 2px 2px #0ff;
-    transition: .5s ease;    
+    width: 200px;   
 }
 
 .card-title{
     width:250px;
-    align-items: center;
-    border:1px solid red;
+    align-items: center;        
+}
+
+.card-title a {
+    color:#4f5565;
+    text-decoration: none;
 }
