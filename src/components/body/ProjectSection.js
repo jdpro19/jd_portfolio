@@ -1,33 +1,43 @@
-import jd_pic from '../../img/jd_pic.jpeg';
+import projectsvg from '../../img/browser-coding-svgrepo-com.svg';
 import '../../css/ProjectSection.css';
+import { Link } from 'react-router-dom';
 
 const ProjectSection = () => {
     return (
         <div className="projectContainer" id="ProjectSection">
             <div>
-                <h1>My Projects</h1>
+                <h1>Recent Projects</h1>
                 <div className="card">
                     <div className="card-img">
-                        <img src={jd_pic}/>
+                        <img src={projectsvg}/>
                     </div>
                     <div className="card-title">
-                        <h3>This is a Project</h3>
+                        <a href="https://github.com/jdpro19/blogProject">
+                            <h3>Simple blog</h3>
+                            <h4>React and Firebase</h4>
+                        </a>                        
                     </div>
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src={jd_pic}/>
+                        <img src={projectsvg}/>
                     </div>
                     <div className="card-title">
-                        <h3>This is a Project</h3>
+                        <a href="https://github.com/jdpro19/single_page_website_demo">
+                            <h3>One Page Website</h3>
+                            <h4>React and CSS</h4>
+                        </a>
                     </div>
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src={jd_pic}/>
+                        <img src={projectsvg}/>
                     </div>
                     <div className="card-title">
-                        <h3>This is a Project</h3>
+                        <a href="https://github.com/jdpro19/nextjsnavbar">
+                            <h3>Navbar</h3>
+                            <h4>NextJS</h4>
+                        </a>
                     </div>
                 </div>
             </div>
