@@ -19,7 +19,7 @@ const Navbar = () => {
                         <a href="#ProjectSection">Projects</a>
                     </li>
                     <li>
-                        <a href="#BlogsSection">Blogs</a>
+                        <a href="https://jdblogs.hashnode.dev/">Blogs</a>
                     </li>
                 </ul>
             </nav>
