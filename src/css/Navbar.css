@@ -2,7 +2,7 @@
     margin : 0;
     padding: 0;
 }
-.navbar{
+.navbar{    
     border-bottom: 1px solid black;    
     color:black;
     display: flex;
@@ -43,7 +43,7 @@
         top:30px;
     }  
     
-    .navbar{
+    .navbar{        
         flex-direction: column;
         padding-top: 10px;        
     }
