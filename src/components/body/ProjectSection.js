@@ -1,6 +1,5 @@
 import projectsvg from '../../img/browser-coding-svgrepo-com.svg';
 import '../../css/ProjectSection.css';
-import { Link } from 'react-router-dom';
 
 const ProjectSection = () => {
     return (
@@ -9,7 +8,7 @@ const ProjectSection = () => {
                 <h1>Recent Projects</h1>
                 <div className="card">
                     <div className="card-img">
-                        <img src={projectsvg}/>
+                        <img src={projectsvg} alt="simple blog project"/>
                     </div>
                     <div className="card-title">
                         <a href="https://github.com/jdpro19/blogProject">
@@ -20,7 +19,7 @@ const ProjectSection = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src={projectsvg}/>
+                        <img src={projectsvg} alt="one page website"/>
                     </div>
                     <div className="card-title">
                         <a href="https://github.com/jdpro19/single_page_website_demo">
@@ -31,7 +30,7 @@ const ProjectSection = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src={projectsvg}/>
+                        <img src={projectsvg} alt="nextjs navbar"/>
                     </div>
                     <div className="card-title">
                         <a href="https://github.com/jdpro19/nextjsnavbar">
