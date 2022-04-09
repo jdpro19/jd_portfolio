@@ -43,3 +43,9 @@ a.github {
 a.linkedin {
     color:#0a66c2;
 }
+
+@media all and (max-width: 700px){
+    .footerMain{
+        width:100%;
+    }
+}
