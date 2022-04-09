@@ -22,6 +22,11 @@ const Navbar = () => {
                         <a href="https://jdblogs.hashnode.dev/">Blogs</a>
                     </li>
                 </ul>
+                <div className='menu'>
+                    <div className='menu-line'></div>
+                    <div className='menu-line'></div>
+                    <div className='menu-line'></div>
+                </div>
             </nav>
         </div>
     );
