@@ -35,8 +35,7 @@
 }
 
 @media all and (max-width:700px){
-    .projectContainer {
-        width:100%;
+    .projectContainer {        
         height:auto;
         margin-top: 150px;                
         border-start-start-radius: 0%; 

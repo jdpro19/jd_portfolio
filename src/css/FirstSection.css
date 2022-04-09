@@ -27,7 +27,7 @@
 
 @media all and (max-width:700px){
     .main {
-        width:100%;
+        /* width:100%; */
         height:320px;
         position:relative;
         margin-top:0px;
@@ -35,6 +35,7 @@
         border-bottom-right-radius: 0%;               
         flex-direction: column;
         align-items: center;
+        border:1px solid red;
     }
 
     .pic{
@@ -46,13 +47,14 @@
     }
 
     .pic img{
+        border: 1px solid brown;
         position:relative;
         left:180px;
     }
     
     .rightMain {
         width:100%;
-        /* border: 1px solid yellow; */
+        border: 1px solid yellow;
         padding-top: 10px;
         margin-top: 10px;        
         font-size:small;
