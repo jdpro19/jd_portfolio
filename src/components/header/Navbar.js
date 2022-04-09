@@ -8,9 +8,9 @@ const Navbar = () => {
                     <h2>JD</h2>
                 </div>
                 
-                <ul>
+                <ul className="nav-list" id="navlistId">
                     <li>
-                        <a href="">Home</a>
+                        <a href="#">Home</a>
                     </li>
                     <li>
                         <a href="#AboutSection">About</a>
@@ -22,7 +22,7 @@ const Navbar = () => {
                         <a href="https://jdblogs.hashnode.dev/">Blogs</a>
                     </li>
                 </ul>
-                <div className='menu'>
+                <div className="menu" id="toggleMenu">
                     <div className='menu-line'></div>
                     <div className='menu-line'></div>
                     <div className='menu-line'></div>

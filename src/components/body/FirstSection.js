@@ -7,7 +7,7 @@ const FirstSection = () => {
             <div className="pic">
                 <img src={jd_pic} alt="jdpic"/>
             </div>
-            <div className="rightMain">
+            <div className="rightMain">                
                 <h1>Hello World, This is JD ;)</h1>
                 <h2>Web Designer & Developer</h2>
             </div>
