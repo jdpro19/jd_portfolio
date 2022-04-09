@@ -45,7 +45,8 @@
     
     .navbar{        
         flex-direction: column;
-        padding-top: 10px;        
+        padding-top: 10px;   
+        border:1px solid red;     
     }
 
     /* .logo{        

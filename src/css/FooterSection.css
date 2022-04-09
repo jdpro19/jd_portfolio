@@ -1,4 +1,5 @@
-.footerMain{           
+.footerMain{      
+    background-color:#eb3223;     
     color:black;       
     height: 80px;        
 }
@@ -10,7 +11,7 @@
 }
 
 .social-container {
-    background: #eee;
+    background-color: chartreuse;
     padding: 40px 50px;
 }
 
@@ -46,6 +47,7 @@ a.linkedin {
 
 @media all and (max-width: 700px){
     .footerMain{
-        width:100%;
+        /* width:100%; */
+        border:1px solid red;
     }
 }
