@@ -11,8 +11,7 @@ import {
 const FooterSection = () => {
 
     return (
-        <div className="footerMain">
-            
+        <div className="footerMain">            
             <p>Jyotirmoy Das | Web Developer @2022</p>
             <div class="social-container">                
                 <a href="https://www.youtube.com/channel/UCbVXfJT0zA79w9Axl3Kx8eA/featured"
