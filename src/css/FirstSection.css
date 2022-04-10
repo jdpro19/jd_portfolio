@@ -56,6 +56,8 @@
         border: 4px solid #eff;
         /* position:relative; */
         /* left:180px; */
+        position:relative;
+        left:0px;  
     }
     
     .rightMain {
