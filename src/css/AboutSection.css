@@ -43,13 +43,13 @@
     .abt-container {
         /* width:100%; */
         height:auto;
-        position:relative;
+        /* position:relative; */
         /* margin-top:90px; */
         border-bottom-left-radius: 0%;  
         border-bottom-right-radius: 0%;               
         flex-direction: column;
-        align-items: center;
-        /* border:1px solid red; */
+        /* align-items: center; */
+        border:1px solid red;
     }
 
     .abt-content{
