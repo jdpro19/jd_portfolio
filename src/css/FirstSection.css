@@ -1,7 +1,7 @@
 .main{    
     background:linear-gradient(to right, #a73ba8, #00d9f8);  
     width:100%; 
-    height:450px;
+    height:430px;
     border-end-end-radius: 30%;     
     display: flex;    
 }
@@ -22,7 +22,7 @@
     font-family: 'Permanent Marker', cursive;
     font-size: larger;
     color: bisque;
-    width:1000px;        
+    width:100%;       
     height:100px;
     margin-top: 150px;
     padding-top:35px;
@@ -31,35 +31,36 @@
 @media all and (max-width:700px){
     .main {
         /* width:100%; */
+        
         height:320px;
         position:relative;
         margin-top:0px;
         border-bottom-left-radius: 0%;  
         border-bottom-right-radius: 0%;               
         flex-direction: column;        
-        border:1px solid red;
+        /* border:1px solid red; */
     }
 
     .pic{    
-        width:auto;    
-        height:150px;
-        
-        border:1px solid red;
-        margin-right: 140px;
+        width:200px; 
+        height:180px;                
+        /* margin-right: 140px; */
         margin-top: 40px;
+        position:relative;
+        left:30px;       
+                
     }
 
-    .pic img{
-        width:auto;    
+    .pic img {           
         height:150px;
-        border: 5px solid brown;
+        border: 4px solid #eff;
         /* position:relative; */
         /* left:180px; */
     }
     
     .rightMain {
-        width:auto;
-        border: 1px solid yellow;
+        width:400px;
+        /* border: 1px solid yellow; */
         padding-top: 10px;
         margin-top: 10px;        
         font-size:small;

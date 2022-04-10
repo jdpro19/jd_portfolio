@@ -1,5 +1,4 @@
-.footerMain{      
-    background-color:#eb3223;     
+.footerMain{          
     color:black;       
     height: 80px;        
 }
@@ -10,8 +9,7 @@
     font-size: large ;
 }
 
-.social-container {
-    background-color: chartreuse;
+.social-container {    
     padding: 40px 50px;
 }
 
@@ -47,7 +45,10 @@ a.linkedin {
 
 @media all and (max-width: 700px){
     .footerMain{
-        /* width:100%; */
-        border:1px solid red;
+        width:100%;
+        /* border:1px solid red; */
+    }
+    .social-container {    
+        padding: 40px 30px;
     }
 }
