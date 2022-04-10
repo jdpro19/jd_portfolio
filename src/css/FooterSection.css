@@ -45,10 +45,14 @@ a.linkedin {
 
 @media all and (max-width: 700px){
     .footerMain{
-        width:100%;
+        width:100%;        
         /* border:1px solid red; */
     }
+
+    .footerMain p{
+        font-size:small;
+    }
     .social-container {    
-        padding: 40px 30px;
+        padding: 40px 10px;
     }
 }

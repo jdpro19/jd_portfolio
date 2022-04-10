@@ -18,15 +18,10 @@ code {
   font-family: 'Permanent Marker', cursive;
 }
 
-html {
-  /* Smooth scroll always for html tag */
-  scroll-behavior: smooth;
-  /* scroll-snap-type: y; <-- snap in y axis */
-}
 
 /* mobile  */
-@media (max-width: 800px) {
-  html {
+@media (max-width: 700px) {
+  body {
   overflow-x: hidden;  
   }
 }
