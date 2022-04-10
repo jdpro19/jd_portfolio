@@ -5,15 +5,18 @@
     border-end-end-radius: 30%;     
     display: flex;    
 }
+
 .pic{
     width:450px;
     height:430px;    
     margin-left: 90px;
     display: flex;
 }
+
 .pic img{        
     border-radius: 50%;        
 }
+
 .rightMain { 
     font-family: 'Cedarville Cursive', cursive;
     font-family: 'Permanent Marker', cursive;
@@ -38,8 +41,7 @@
         border:1px solid red;
     }
 
-    .pic{
-        
+    .pic{        
         height:150px;
         border:1px solid red;
         margin-right: 140px;
@@ -48,8 +50,8 @@
 
     .pic img{
         border: 1px solid brown;
-        position:relative;
-        left:180px;
+        /* position:relative; */
+        /* left:180px; */
     }
     
     .rightMain {
