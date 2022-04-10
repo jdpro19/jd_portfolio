@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
+  scroll-behavior: smooth;
 }
 
 code {
@@ -15,6 +16,19 @@ code {
 .font-link {
   font-family: 'Cedarville Cursive', cursive;
   font-family: 'Permanent Marker', cursive;
+}
+
+html {
+  /* Smooth scroll always for html tag */
+  scroll-behavior: smooth;
+  /* scroll-snap-type: y; <-- snap in y axis */
+}
+
+/* mobile  */
+@media (max-width: 800px) {
+  html {
+  overflow-x: hidden;  
+  }
 }
 
 
