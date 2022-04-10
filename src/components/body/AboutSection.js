@@ -10,6 +10,7 @@ const AboutSection = () => {
                 I'm a Web Developer and Designer from Guwahati, India.
                 I spend most of my time coding and listening to music.</p>                
             </div>
+            
             <div className="abt-skills">
                 <div className='skills-block-techstack'>
                     <h2>Techstacks known..</h2>                    

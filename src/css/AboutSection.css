@@ -7,14 +7,17 @@
 
 .abt-content {
     width:40%;     
-    height:auto;        
+    height:auto;      
 }
 
 .abt-content h2, p{
     position: relative;
-    top: 30%;
-    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
+    top: 15%;
+    /* font-family: Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-style: italic; */
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size:18pt;  
     padding: 5px;  
 }
@@ -35,36 +38,48 @@
     height:90px;
 }
 
+
 @media all and (max-width:700px){
     .abt-container {
         /* width:100%; */
-        height:320px;
+        height:auto;
         position:relative;
         /* margin-top:90px; */
         border-bottom-left-radius: 0%;  
         border-bottom-right-radius: 0%;               
         flex-direction: column;
         align-items: center;
-        border:1px solid red;
+        /* border:1px solid red; */
     }
 
     .abt-content{
-        width: 100%;
-        height:150px;
+        width: auto;
+        height:auto;
         /* border:1px solid red; */
         margin-left: 0;                                
-        margin-top: 0px;        
-    }
-
-    .abt-skills {
-        width:100%;
-        padding-top: 10px;
         margin-top: 50px;        
     }
 
+    .abt-skills {
+        width:auto;
+        height:auto;
+        padding: 2px;
+        margin-top: 10px;     
+        /* border:1px solid red;            */
+    }
+
     .skills-block-techstack img {
-        width:70px;
-        height:70px;
+        width:90px;
+        height:90px;
+        
+    }   
+
+    .abt-content h2{
+        text-decoration:underline;
+    }
+    
+    .skills-block-techstack h2{
+        text-decoration:underline;
     }
     
 }

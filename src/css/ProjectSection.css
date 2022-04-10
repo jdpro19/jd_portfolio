@@ -1,3 +1,8 @@
+h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Permanent Marker', cursive;
+}
 .projectContainer{
     background:linear-gradient(to right, #00d9f8, #a73ba8);  
     border-start-start-radius: 30%;  
@@ -37,7 +42,7 @@
 @media all and (max-width:700px){
     .projectContainer {        
         height:auto;
-        margin-top: 150px;                
+        margin-top: 50px;                
         border-start-start-radius: 0%; 
         padding:10px;         
 
