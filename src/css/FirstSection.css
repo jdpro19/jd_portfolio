@@ -65,7 +65,9 @@
         /* border: 1px solid yellow; */
         padding-top: 10px;
         margin-top: 10px;        
-        font-size:small;
+        font-size:x-small;
+        position:relative;
+        right:25px;
     }
     
 }
